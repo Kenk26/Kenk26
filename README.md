@@ -166,6 +166,20 @@ transcribes your voice, and dispatches real system actions — entirely on-devic
 
 ---
 
+### 🤟 Sign Language to Speech System
+> **Python · MediaPipe · TensorFlow · LangChain · Ollama · pyttsx3 · PyQt5**
+
+A real-time sign language recognition pipeline that captures hand gestures via webcam, classifies them using an LSTM model, and converts them into spoken natural English sentences.
+
+- 🖐️ Dual-hand landmark extraction (126-dim vectors) via MediaPipe Tasks API
+- 🎭 Facial emotion detection integrated into sentence tone via MediaPipe Face Landmarker
+- 🧠 LSTM classifier trained on custom-collected 30-frame gesture sequences
+- 💬 LLM-powered grammar correction using LangChain + Ollama (Gemma)
+- 🔊 Offline TTS via pyttsx3 with gTTS fallback
+- 📦 Full pipeline: data collection → preprocessing → training → live inference
+
+---
+
 ## 📬 Connect
 
 I'm always open to interesting project ideas, collaborations, or just a good tech conversation.
